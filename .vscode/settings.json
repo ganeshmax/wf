@@ -1,0 +1,70 @@
+{
+    // --- THEME & APPEARANCE (IntelliJ Light) ---
+    "workbench.colorTheme": "Default Light Modern",
+    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "window.zoomLevel": 0.5,
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    // --- INTELLIJ BEHAVIOR ---
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "debug.toolBarLocation": "docked",
+    "editor.renderWhitespace": "selection",
+    "editor.foldingImportsByDefault": true,
+    // --- EXPLORER (PyCharm-like) ---
+    "explorer.compactFolders": true,
+    "explorer.sortOrder": "type",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+        ".env": ".env.*",
+        "requirements.txt": "requirements*.txt"
+    },
+    // Tree indentation
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    // Breadcrumbs & Tabs
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.symbolPath": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.highlightModifiedTabs": true,
+    // --- EXCLUSIONS ---
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/.ruff_cache": true,
+        "**/node_modules": true,
+        "**/.DS_Store": true,
+        "**/.venv": true,
+        "**/venv": true
+    },
+    "search.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/node_modules": true,
+        "**/.venv": true,
+        "**/venv": true
+    },
+    "python.analysis.exclude": [
+        "**/__pycache__",
+        "**/.venv",
+        "**/node_modules"
+    ]
+}
