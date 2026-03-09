@@ -1,6 +1,6 @@
 {
     // --- THEME & APPEARANCE (IntelliJ Light) ---
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "IntelliJ IDEA New UI Light",
     "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 15,
     "window.zoomLevel": 0.5,

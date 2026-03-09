@@ -1,7 +1,6 @@
 {
     "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/ganeshji/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
     "editor.fontFamily": "'Jetbrains Mono', Menlo, monospace",
-    "editor.fontLigatures": false,
     "editor.fontSize": 14,
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "on",
@@ -24,20 +23,16 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "jdk.telemetry.enabled": false,
-    "workbench.iconTheme": "int-ui-icons-light",
-    "workbench.productIconTheme": "int-ui-product-icons",
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": "multiple",
     "workbench.editor.tabSizing": "shrink",
-    "workbench.editor.tabCloseButton": "right",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.activityBar.location": "default",
     "window.commandCenter": false,
     "workbench.editor.tabActionLocation": "right",
     "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.13",
-    "workbench.colorTheme": "IntelliJ IDEA New UI Light",
     "postgresExplorer.connections": [
         {
             "id": "1772308863685",
@@ -47,5 +42,7 @@
             "username": "raguser",
             "database": "ragdb"
         }
-    ]
+    ],
+    "git.autofetch": true,
+    "workbench.colorTheme": "IntelliJ IDEA New UI Light"
 }
