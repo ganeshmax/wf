@@ -1,0 +1,6 @@
+pyspark
+fastapi
+uvicorn
+faker
+pandas
+pyarrow
